@@ -1,0 +1,151 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 38rem;
+    height: 42rem;
+    padding: 1rem;
+    margin: 2rem auto;
+    background-color: rgb(249, 222, 242);
+    border: 0.1rem solid rgb(182, 170, 170);
+    border-radius: 2.5%;
+}
+form{
+    margin-left: 1.4rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    color: rgb(213, 77, 220);
+    font-weight: 600;
+}
+h1{
+   margin-left: 8rem;
+   margin-top: 1.5rem;
+   color: rgb(213, 77, 220);
+   font-family: 'Courier New', Courier, monospace;
+}
+img{
+    margin-left: -18rem;
+    margin-bottom: 1.5rem;
+}
+input{
+    margin-top: 1.9rem;
+    margin-left: -0.6rem;
+    height: 1.8rem;
+    width: 18rem;
+    border-radius: 0.4rem;
+    border: 0.1rem solid plum;
+}
+button{
+    height: 1.8rem;
+    width: 3.6rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.8rem;
+    margin-left: -0.3rem;
+    color: rgb(213, 77, 220);
+    font-weight: 600;
+    border: 0.1rem solid rgb(182, 170, 170);
+    border-radius: 11%;
+    background-color: white;
+   
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 38rem;
+    height: 42rem;
+    padding: 1rem;
+    margin: 2rem auto;
+    background-color: rgb(249, 222, 242);
+    border: 0.1rem solid rgb(182, 170, 170);
+    border-radius: 2.5%;
+}
+
+form{
+    margin-left: 1.4rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    color: rgb(213, 77, 220);
+    font-weight: 600;
+}
+
+h1{
+    margin-left: 8rem;
+    margin-top: 1.5rem;
+    color: rgb(213, 77, 220);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img{
+    margin-left: -18rem;
+    margin-bottom: 1.5rem;
+}
+
+input{
+    margin-top: 1.9rem;
+    margin-left: -0.6rem;
+    height: 1.8rem;
+    width: 18rem;
+    border-radius: 0.4rem;
+    border: 0.1rem solid plum;
+}
+
+button{
+    height: 1.8rem;
+    width: 3.6rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.8rem;
+    margin-left: -0.3rem;
+    color: rgb(213, 77, 220);
+    font-weight: 600;
+    border: 0.1rem solid rgb(182, 170, 170);
+    border-radius: 11%;
+    background-color: white;
+}
+
+button:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+.todo-item {
+    margin: 0.8rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+#todo-container {
+    margin-top: 2rem;
+}
+
+#todo-container button {
+    margin-left: rem;
+    padding: 0.2rem 0.5rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#todo-container button:hover {
+    background-color: #eee;
+}
+
+button:focus {
+    outline: none;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+

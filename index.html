@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>__Things To Do__
+            <img src="./Screenshot 2025-02-21 183045.png" alt="panda" width="90rem">
+        </h1>
+        <form onsubmit="getTodo(event)">
+            <label for="todo">ENTER TODOS:
+                <input type="text" id="todo-input">
+            </label>
+            <button type="submit">Add</button>
+        </form>
+        <div id="todo-container"></div>
+        <button onclick="clearTodos()">Clear All</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
